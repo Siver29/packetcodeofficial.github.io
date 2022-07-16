@@ -1,6 +1,6 @@
 <?php
-$url= "https://api.telegram.org/bot5530162842:AAEl3lnNam1vxFLzhoIINSuLmrVNrEyOYU4/";
-$chat_id = '5491809641';
+$url= "https://api.telegram.org/bot$token/";
+$chat_id = $yourChatId;
 if (isset($_POST['hi'])){
  $name=$_POST['your-name'];
  $email=$_POST['your-email'];	
